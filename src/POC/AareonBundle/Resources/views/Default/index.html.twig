@@ -1,0 +1,16 @@
+{% extends '::base.html.twig' %}
+
+{% block body %}
+
+    <h1>Budgets of PL Teams</h1>
+    <ul>
+        {% for team in teams  %}
+            <li>{{ team.name }} - {{ team.championship }} - {{ team.budget|number_format(2, '.', ',') }}£</li>
+        {% endfor  %}
+        <br/>
+
+        <h3>League total budget : {{ totalBudget|number_format(3, '.', ',') }}£</h3>
+
+    </ul>
+
+{% endblock %}

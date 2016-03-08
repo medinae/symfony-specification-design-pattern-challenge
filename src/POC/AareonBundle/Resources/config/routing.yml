@@ -1,0 +1,3 @@
+poc_aareon_homepage:
+    path:     /
+    defaults: { _controller: POCAareonBundle:Default:index }

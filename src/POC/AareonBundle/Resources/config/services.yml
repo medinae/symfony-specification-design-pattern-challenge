@@ -1,0 +1,5 @@
+services:
+    poc.aareon.teamservice:
+        class:  POC\AareonBundle\Services\TeamService
+        arguments:
+            entityManager: "@doctrine.orm.entity_manager"

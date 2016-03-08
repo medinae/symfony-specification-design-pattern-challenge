@@ -1,0 +1,5 @@
+poc_aareon:
+    resource: "@POCAareonBundle/Resources/config/routing.yml"
+    prefix:   /
+
+
