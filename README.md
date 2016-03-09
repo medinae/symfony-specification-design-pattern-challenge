@@ -50,4 +50,5 @@ So if you want, explore the project and fix the bug in order to understand bette
 
 I'm waiting for your pull requests !
 
+Inspired by JF Lépine blog
 
